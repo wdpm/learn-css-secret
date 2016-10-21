@@ -14,9 +14,7 @@
     }
 </style>
 
-<body>
 <div class="box"></div>
-</body>
 ```
 
 ### 2.background-origin: content-box

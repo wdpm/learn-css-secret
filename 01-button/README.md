@@ -17,7 +17,7 @@
     }
 
     .btn.ok {
-        background-color: #1cb547;// overide background-color
+        background-color: #1cb547;/* overide background-color */
     }
 
     .btn.cancel {
