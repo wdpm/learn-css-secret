@@ -2,7 +2,7 @@
 
 - box-shadow
 
-![](./03-multiple-borders(box-shadow).png)
+![](./multiple-borders(box-shadow).png)
 ``` html
 <style>
     .box {

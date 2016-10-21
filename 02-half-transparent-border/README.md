@@ -1,6 +1,6 @@
 # half-transparent-border
 
-![half-transparent-border](./02-half-transparent-border.png)
+![half-transparent-border](./half-transparent-border.png)
 
 ``` html
 <style>

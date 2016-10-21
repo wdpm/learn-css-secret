@@ -3,7 +3,7 @@
 ![button](./button.png)
 
 ```　html
-<style type="text/css">
+<style>
      /* basic button style */
     .btn {
         font-size: 125%;
