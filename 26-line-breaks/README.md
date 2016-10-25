@@ -1,3 +1,7 @@
+# line-breaks
+
+![line-breaks](./line-breaks.png)
+``` html
 <style>
     dt, dd {
         display: inline;
@@ -31,4 +35,4 @@
     <dt>Location:</dt>
     <dd>Earth</dd>
 </dl>
-
+```
