@@ -1,0 +1,14 @@
+@function text-retro($color: black, $depth: 8) {
+  $shadows: (1px 1px $color,);
+  @for $i from 2 through $depth {
+    $shadows: append($shadows,
+                    ($i*1px) ($i*1px) $color, comma);
+  }
+  @return $shadows;
+}
+
+h1 {
+  color: white;
+  background: hsl(0, 50%, 45%);
+  text-shadow: text-retro();
+}
