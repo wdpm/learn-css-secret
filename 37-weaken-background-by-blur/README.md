@@ -1,3 +1,7 @@
+# weaken-background-by-blur
+
+![deemphasizing-blur](./deemphasizing-blur.png)
+``` html
 <style>
     main {
         transition: .6s;
@@ -31,6 +35,7 @@
         font: 150%/1.6 Baskerville, Palatino, serif;
     }
 </style>
+
 <body>
 <dialog>O HAI, I'm a dialog. Click on me to dismiss.</dialog>
 <main class="">
@@ -59,3 +64,4 @@
     }
 </script>
 </body>
+```
