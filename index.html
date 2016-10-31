@@ -1,61 +1,36 @@
 <style>
-    main {
-        transition: .6s;
-        background: white;
+    figure {
+        max-width: 300px; /*for graceful degradation*/
+        max-width: min-content;
+        margin: auto;
     }
 
-    main.de-emphasized {
-        -webkit-filter: blur(3px);
-        filter: blur(3px);
+    figure > img {
+        max-width: inherit; /* if max-width: min-content, this line will be ignored.*/
     }
 
-    dialog {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        z-index: 1;
-        width: 10em;
-        padding: 2em;
-        margin: -5em;
+    /* Basic styling */
+
+    figure {
+        padding: 10px;
         border: 1px solid silver;
-        border-radius: .5em;
-        box-shadow: 0 .2em .5em rgba(0, 0, 0, .5),
-        0 0 0 100vmax rgba(0, 0, 0, .2);
-    }
-
-    dialog:not([open]) {
-        display: none;
-    }
-
-    body {
-        font: 150%/1.6 Baskerville, Palatino, serif;
     }
 </style>
-<body>
-<dialog>O HAI, I'm a dialog. Click on me to dismiss.</dialog>
-<main class="">
-    <button>Show dialog</button>
-    <p>Bacon ipsum dolor sit amet consectetur...</p>
-</main>
-<script>
-    function $(sel) {
-        return document.querySelector(sel);
-    }
-    var button = $('button');
-    var dialog = $('dialog');
-    var main = $('main');
-    button.onclick = function () {
-        dialog.setAttribute('open', '');
-        /* set open attribute can make dialog open.*/
-        main.classList.add('de-emphasized');
-    };
-    dialog.onclick = function () {
-        if (dialog.close) {
-            dialog.close();
-        } else {
-            dialog.removeAttribute('open');
-        }
-        main.classList.remove('de-emphasized');
-    }
-</script>
-</body>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
+<figure>
+    <img src="40-intrinsic-sizing/Kenshin.jpg">
+    <figcaption>
+        This is a long long long long long long long long long long long long long long figure caption.
+    </figcaption>
+</figure>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p>
