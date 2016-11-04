@@ -1,5 +1,5 @@
 # learn-css-secret
-Record some beautiful and interesting css style tips.
+Record some beautiful and interesting css style tips.These are my study notes about \<\<CSS Secrets\>\> book.
 
 ## Some Note
 - use css to implement effect instead of image can reduce Http request.

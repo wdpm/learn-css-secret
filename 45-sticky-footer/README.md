@@ -1,3 +1,7 @@
+# sticky-footer
+
+![sticky-footer](./sticky-footer.png)
+``` html
 <style>
     /**
      * Sticky footer with flexible height
@@ -70,3 +74,4 @@
     <p>Made with heart by an anonymous pastafarian.</p>
 </footer>
 </body>
+```
