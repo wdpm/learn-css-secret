@@ -1,6 +1,5 @@
 # ampersands
 
-![]()
 ``` html
 <style>
     @font-face {

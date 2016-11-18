@@ -1,6 +1,0 @@
-# hypenation
-
-![]()
-``` html
-
-```
