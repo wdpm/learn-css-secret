@@ -1,4 +1,1 @@
-<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">　　
-    <circle cx="25" cy="25" r="20" stroke="pink" stroke-width="2" fill="purple"/>
-    <text x="12" y="35" font-size="30px" fill="white">W</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"><circle cx="25" cy="25" r="20" fill="purple" stroke="pink" stroke-width="2"/><text x="12" y="35" fill="#fff" font-size="30">W</text></svg>
